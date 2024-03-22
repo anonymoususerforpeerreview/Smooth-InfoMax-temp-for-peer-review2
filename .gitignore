@@ -1,0 +1,6 @@
+*.pyc
+.idea/
+*.npy
+*.pdf
+*.png
+*.csv
