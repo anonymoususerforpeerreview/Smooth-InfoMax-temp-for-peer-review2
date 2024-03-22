@@ -1,14 +1,3 @@
-
-<img src="assets\image-20230613110122953.png" alt="image-20230613110122953" style="zoom: 33%;" />
-
-<img src="./assets/image-20230613111315897.png" alt="image-20230613111315897" style="zoom:33%;" />
-
-
-
-
-
-<img src="./assets/image-20230613110900073.png" alt="image-20230613110900073" style="zoom: 67%;" />
-
 ## Installation
 
 ```bash
