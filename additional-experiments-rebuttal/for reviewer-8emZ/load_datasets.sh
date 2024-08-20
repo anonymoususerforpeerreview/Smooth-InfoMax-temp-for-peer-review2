@@ -1,0 +1,12 @@
+mkdir awa2-dataset && cd awa2-dataset && mkdir AwA2-data && cd AwA2-data
+wget -O data.zip https://cvml.ista.ac.at/AwA2/AwA2-data.zip
+unzip data.zip
+cd ..
+cd ..
+python resize_awa2.py
+
+sudo apt update;
+sudo apt install rsync;
+rsync -av --progress awa2-dataset/AwA2-data/Animals_with_Attributes2/ awa2-dataset/AwA2-data/Animals_with_Attributes2_resized/ --exclude=JPEGImages
+# copy the remaining files in awa2-dataset/AwA2-data/Animals_with_Attributes2/ to Animals_with_Attributes2_resized/
+# but exclude the JPEGImages folder
